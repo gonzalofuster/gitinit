@@ -1,0 +1,33 @@
+  *{
+      background-color: #a46020e6;
+  }
+
+   
+    div.animame {
+      padding: 5%;
+      margin-left: 20%;
+      margin-top: 10%;
+      width: 10vw; 
+      height: 20vh;
+      background-color: #7700ffe6;
+      border: solid 1px;
+      font-family: sans-serif;
+      font-size: xx-large;
+    } 
+    div {
+      position: relative;
+      left:300px; top:50px;
+    }
+  
+  @keyframes animacion {
+    0%{ 
+      transform:skew(30deg);}
+    50%{
+      background-color: #affa5a;
+    }  
+    100%{ 
+      transform:rotate(180deg);}
+    } 
+  .animame {
+       animation: animacion 1s linear 1s infinite alternate;}
+  
